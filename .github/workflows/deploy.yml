@@ -1,0 +1,31 @@
+name: Publish Page
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    name: Publish Page
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16.19.0"
+          cache: "yarn"
+
+      - name: Install Dependencies
+        run: yarn install --immutable
+
+      - name: Build Static Files
+        run: yarn build:static
+
+      - name: Deploy to lafif-test-stackbit.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'lafif-test-stackbit.surge.sh'
+          project: '.'
+          login: ${{ secrets.SURGE_LOGIN }}
+          token: ${{ secrets.SURGE_TOKEN }}
