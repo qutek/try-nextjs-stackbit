@@ -14,7 +14,7 @@ sections:
         url: 'https://docs.stackbit.com/'
         theme: secondary
   - type: HeroSection
-    heading: Hero Heading
+    heading: Another Hero
     subheading: Hero Subheading
     buttons: []
   - type: CardGridSection
