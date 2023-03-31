@@ -3,7 +3,7 @@ type: Page
 title: This heading
 sections:
   - type: HeroSection
-    heading: Welcome to Stackbit!
+    heading: Welcome to my site
     subheading: >
       You've just [unlocked visual editing
       capabilities](https://www.stackbit.com/) in this Next.js app.
