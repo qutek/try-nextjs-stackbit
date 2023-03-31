@@ -18,6 +18,10 @@ sections:
     heading: Card Grid Heading
     subheading: Card Grid Subheading
     cards: []
+  - type: CardGridSection
+    heading: Card Grid Heading
+    subheading: Card Grid Subheading
+    cards: []
   - type: HeroSection
     heading: Hero Heading
     subheading: Hero Subheading
