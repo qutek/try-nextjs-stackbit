@@ -8,7 +8,7 @@ sections:
       You've just [unlocked visual editing
       capabilities](https://www.stackbit.com/) in this Next.js app.
     buttons:
-      - label: Setar
+      - label: Setar bro
         url: 'https://docs.stackbit.com/getting-started/'
         theme: primary
       - label: Read dasdasd Docs
