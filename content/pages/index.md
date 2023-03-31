@@ -1,19 +1,22 @@
 ---
 type: Page
-title: Stackbit Next.js Starter
+title: This heading
 sections:
   - type: HeroSection
-    heading: Welcome to Stackbit!
-    subheading: >
-      You've just [unlocked visual editing
-      capabilities](https://www.stackbit.com/) in this Next.js app.
+    heading: Welcome to my site edited
+    subheading: |
+      sample description
     buttons:
-      - label: Setar
+      - label: Setar bro
         url: 'https://docs.stackbit.com/getting-started/'
         theme: primary
       - label: Read dasdasd Docs
         url: 'https://docs.stackbit.com/'
         theme: secondary
+  - type: HeroSection
+    heading: Another Hero
+    subheading: Hero Subheading
+    buttons: []
   - type: CardGridSection
     heading: Card Grid Heading
     subheading: Card Grid Subheading
