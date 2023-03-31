@@ -13,6 +13,10 @@ sections:
       - label: Read dasdasd Docs
         url: 'https://docs.stackbit.com/'
         theme: secondary
+  - type: HeroSection
+    heading: Hero Heading
+    subheading: Hero Subheading
+    buttons: []
   - type: CardGridSection
     heading: Card Grid Heading
     subheading: Card Grid Subheading
