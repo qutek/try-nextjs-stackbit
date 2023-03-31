@@ -1,6 +1,6 @@
 ---
 type: Page
-title: Stackbit Next.js Starter
+title: This heading
 sections:
   - type: HeroSection
     heading: Welcome to Stackbit!
