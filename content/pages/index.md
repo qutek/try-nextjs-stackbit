@@ -17,6 +17,10 @@ sections:
     heading: Another Hero
     subheading: Hero Subheading
     buttons: []
+  - type: HeroSection
+    heading: Hero Heading
+    subheading: Hero Subheading
+    buttons: []
   - type: CardGridSection
     heading: Card Grid Heading
     subheading: Card Grid Subheading
