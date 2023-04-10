@@ -3,7 +3,7 @@ type: Page
 title: This heading
 sections:
   - type: HeroSection
-    heading: Welcome to my site edited
+    heading: Test
     subheading: |
       sample description
     buttons:
@@ -15,6 +15,10 @@ sections:
         theme: secondary
   - type: HeroSection
     heading: Another Hero
+    subheading: Hero Subheading
+    buttons: []
+  - type: HeroSection
+    heading: Hero Heading
     subheading: Hero Subheading
     buttons: []
   - type: CardGridSection
