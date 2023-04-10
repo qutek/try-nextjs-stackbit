@@ -3,7 +3,7 @@ type: Page
 title: This heading
 sections:
   - type: HeroSection
-    heading: Welcome to my site edited
+    heading: Test
     subheading: |
       sample description
     buttons:
